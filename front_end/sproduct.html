@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+     </head>
+    <body>
+        <div class="header">
+        <div class="container">
+           <div class="navbar">
+     <div class="logo">
+      <img src="https://xp.io/storage/N0ANlE3.png" width="150px">
+        </div>
+        <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="Account.html">Account</a></li>
+            </ul>
+        </nav>
+               <img src="https://xp.io/storage/NUPFCl0.png" width="30px" height="30px">
+               
+      
+            </div>
+            </div>
+
+                
+<!-------------------single product-------------------->
+            
+            <div class="small-container single-product">
+            <div class="row">
+               <div class="col-2">
+                <img src="gallery-1.jpg" width="100%"  id="ProductImg">
+                   
+                   <div class="small-img-row">
+                   <div class="small-img-col">
+                     <img src="gallery-1.jpg" width="100%" class="small-img">  
+                       </div>
+                       <div class="small-img-col">
+                        <img src="gallery-2.jpg" width="100%" class="small-img">  
+                   </div>
+                       <div class="small-img-col">
+                    <img src="gallery-3.jpg" width="100%" class="small-img">  
+                   </div>
+                       <div class="small-img-col">
+                 <img src="gallery-4.jpg" width="100%" class="small-img">  
+                </div>
+                   </div>
+                   
+                </div>
+                <div class="col-2">
+                <p>Home / T-Shirt</p>
+                <h1>Red Printed T-shirt by HRX</h1>
+                    <h4>$ 50.0</h4>
+                    <select>
+                    <option>Select Size</option>
+                    <option>Small</option>
+                    <option>Medium</option>
+                     <option>Large</option>
+                      <option>XL</option> 
+                      <option>XXL</option> 
+
+                    </select>
+                    <input type="number" name="number">
+                    <a href="" class="btn">Add to Cart</a>
+                    <h3>Product Detail</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> congue vestibulum nibh, nec feugiat ante pulvinar ac. </p>
+                </div>
+                </div>
+            </div>
+ 
+            
+                    <div class="small-container">
+                     <div class="row">
+                   <div class="col-4">
+                    <img src="https://xp.io/storage/O6MnsSx.jpg" >
+                       <h4>Red Printed T-shirt</h4>
+                       <div class="rating">
+                       <i class="fa fa-star" ></i>
+                       <i class="fa fa-star" ></i>
+                       <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                       </div>
+                       
+                       <p>INR 500</p>
+                    </div>
+                    <div class="col-4">
+                    <img src="https://xp.io/storage/O6Oi4JZ.jpg">
+                        <h4>Red Printed T-shirt</h4>
+                         <div class="rating">
+                        <i class="fa fa-star" ></i>
+                       <i class="fa fa-star" ></i>
+                       <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                       </div>
+                        <p>INR 500</p>
+                    </div>
+                    <div class="col-4">
+                    <img src="https://xp.io/storage/O6QvJzx.jpg">
+                        <h4>Red Printed T-shirt</h4>
+                         <div class="rating">
+                        <i class="fa fa-star" ></i>
+                       <i class="fa fa-star" ></i>
+                       <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                       </div>
+                        <p>INR 500</p>
+                    </div>
+                    <div class="col-4">
+                    <img src="https://xp.io/storage/O6SvdlL.jpg">
+                        <h4>Red Printed T-shirt</h4>
+                         <div class="rating">
+                        <i class="fa fa-star" ></i>
+                       <i class="fa fa-star" ></i>
+                       <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                       </div>
+                        <p>INR 500</p>
+                            
+                    </div>
+                        </div>
+                    </div>
+            
+<!----------------------------js  for product gallery---------------->
+            
+            <script>
+            
+            var ProductImg = document.getElementById('ProductImg');
+                 var smallimg= document.getElementByClassName('small-img');
+            
+                smallimg[0].onclick= function()
+                {
+                    ProductImg.src = smallimg[0].src;
+                }
+             smallimg[1].onclick= function()
+                {
+                   ProductImg.src = smallimg[1].src;
+                }
+              smallimg[2].onclick= function()
+                { 
+                    ProductImg.src = smallimg[2].src;
+                }
+               smallimg[3].onclick= function()
+                {
+                    ProductImg.src = smallimg[3].src;
+                }
+            </script>
+                    
+       
+               
+
+    
+<!-----------------footer---------------->
+                        
+                        <div class="footer">
+                        <div class="container">
+                          <div class="row">
+                           <div class="footer-col-1">
+                             <h3>Download Our App</h3> 
+                               <p>Download App for Android and ios Mobile Phone</p>
+                              </div> 
+                            <div class="footer-col-2">
+                             <h3>Download Our App</h3> 
+                               <p>Our Purpose is to Sustainably Make the Pleasure and Benefits of Good Cloths.</p>
+                                <div class="app-logo">
+                                <img src="play-store.png">
+                                <img src="app-store.png">
+                                </div>
+                                   
+                            </div>  
+                              <div class="footer-col-3">
+                             <h3>Useful Link</h3> 
+                               <ul>
+                                  <li>Coupons</li>
+                                    <li>Blog Spot</li>
+                                    <li>Return Policy</li>
+                                    <li>Join Affiliate</li>
+                                  </ul>
+                            </div>
+                               <div class="footer-col-4">
+                             <h3>Follow Us</h3> 
+                               <ul>
+                                  <li>Facebook</li>
+                                    <li>Twitter</li>
+                                    <li>Instagram</li>
+                                    <li>Youtube</li>
+                                  </ul>
+                        </div>
+                            </div>
+                            <hr>
+                            <p class="copyright">Copyright 2022 - Mini Project -Group 9</p>
+                        
+                        
